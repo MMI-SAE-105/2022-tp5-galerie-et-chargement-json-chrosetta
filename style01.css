@@ -1,7 +1,6 @@
 .overlay {
     /* Sit on top of the page content */
     position: fixed;
-    z-index: 5;
     /* Full width (cover the whole page) */
     width: 100%;
     /* Full height (cover the whole page) */
@@ -22,9 +21,7 @@
     /* Use a grid for easy centering */
     display: grid;
     /* Center vertically and horizontally */
-    vertical-align: middle;
-    margin-left: auto;
-    margin-right: auto;
+    place-content: center;
 }
 
 .overlay::after {
@@ -40,15 +37,15 @@
     margin-left: auto;
     margin-right: auto;
     /* Line height ( idem height ) */
-    line-height: 10%;
+    line-height: 4rem;
     /* Display as a block */
     display: block;
     /* Position absolute */
     position: absolute;
     /* 1rem from the top */
-    margin-top: 1rem;
+    top: 1rem;
     /* 1rem from the right */
-    margin-right: 1rem;
+    right: 1rem;
     /* 2rem width */
     width: 2rem;
     /* 2rem height */
@@ -57,7 +54,7 @@
     border-color: white;
     border-width: 2px;
     /* Rounded border */
-    border-radius: 10%;
+    border-radius: 40%;
 }
 
 .overlay>figure {
@@ -72,7 +69,7 @@
 
 .overlay>figure>img {
     /* Max width 100% for responsive image */
-    width: 100%;
+    max-width: 100%;
     /* Height auto for keeping the ratio */
     height: auto;
 }
