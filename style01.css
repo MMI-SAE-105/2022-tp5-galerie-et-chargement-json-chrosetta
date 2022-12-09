@@ -29,7 +29,7 @@
 
 .overlay::after {
     /* Add content : "X" */
-    
+    content: "X";
     /* White text color */
     color: white;
     /* Black background color */
