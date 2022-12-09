@@ -33,7 +33,8 @@
     /* Font family "sans-serif" */
     font-family: sans-serif;
     /* Centered text */
-
+    margin-left: auto;
+    margin-right: auto;
     /* Line height ( idem height ) */
 
     /* Display as a block */
@@ -57,12 +58,18 @@
 
 .overlay>figure {
     /* No margin */
+    margin: none;
     /* 1rem padding */
+    padding: 1rem;
     /* White border of 2px */
+    border-color: white;
+    border-width: 2px;
 }
 
 .overlay>figure>img {
     /* Max width 100% for responsive image */
+    width: 100%;
     /* Height auto for keeping the ratio */
+    height: auto;
 }
 
