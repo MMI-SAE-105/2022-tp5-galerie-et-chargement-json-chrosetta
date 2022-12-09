@@ -7,13 +7,13 @@
     /* Full height (cover the whole page) */
     height: 100%;
     /* Stay at the top */
-    border-top: 0%;
+    top: 0;
     /* Stay at the left */
-    border-left: 0%;
+    left: 0;
     /* Stay at the right */
-    border-right: 0%;
+    right: 0;
     /* Stay at the bottom */
-    border-bottom: 0%;
+    bottom: 0;
     /* Black background with opacity */
     background-color: black;
     opacity: 20%;
